@@ -1,16 +1,59 @@
-# React + Vite
+# 🎓 Student Report System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and interactive **Student Report Management System** built using **React JS (Vite)**.  
+This project demonstrates component-based architecture and dynamic data handling in React.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add student details
+- 📋 Display student data in a table
+- 📊 Summary section (basic analysis)
+- ⚡ Real-time UI updates
+- 🧩 Component-based structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React JS (Vite)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+
+---
+
+## 📂 Project Structure
+
+Student-report/
+│── src/
+│ ├── components/
+│ │ ├── StudentForm.jsx
+│ │ ├── StudentTable.jsx
+│ │ └── Summary.jsx
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── App.css
+│── public/
+│── index.html
+│── package.json
+│── vite.config.js
+
+## 🧠 Key Concepts Used
+* React Components
+* Props and State
+* Event Handling
+* Conditional Rendering
+* Dynamic UI updates
+
+## 🚧 Future Improvements
+* Add edit/delete student functionality
+* Store data using localStorage or database
+* Improve UI/UX design
+* Add validation for input fields
+
+## 📄 Notes
+* This project is for learning purposes
+* node_modules is excluded using .gitignore
+
