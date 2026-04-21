@@ -33,7 +33,7 @@ This project focuses on **JavaScript DOM operations**:
 
 - HTML
 - CSS
-- JavaScript (**DOM Manipulation**)
+- JavaScript 
 - OpenWeather API
 
 ---
@@ -51,6 +51,16 @@ This project focuses on **JavaScript DOM operations**:
    - Wind speed
 5. A new button is dynamically added to search history
 
+## 📂 Project Structure
+weather-tracker/
+│── index.html
+│── style.css
+│── script.js
 
+## 🚧 Future Improvements
+* Store history using localStorage
+* Add forecast feature
+* Improve UI design
+* Add loading states
 
 
